@@ -13,3 +13,5 @@ The program assumes data-only ppm files with a P3 header, i.e. no comments, inva
 For an example see test.ppm (and .png). 
 
 Why might this be useful? I use it so then other programs (i.e. raymarching, raytracing etc.) don't have to worry about outputting in a decently small and more complicated format. ppmtopng then converts to a rather smaller but still lossless image. A simple script can tie everything together. Example: fancy_graphics_program > out.ppm && ppmtopng out.ppm out.png
+
+License: MIT, for my own code, meaning do whatever you like with it, but don't blame me if it doesn't work. Credit appreciated but not required. For LodePNG (lodepng.cpp and lodepng.h) the license is as within the file. 
